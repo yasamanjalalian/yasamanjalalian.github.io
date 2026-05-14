@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Library Wing Renovation — Yasaman Jalalian." />
+    <title>Library Wing Renovation — Yasaman Jalalian</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <div class="site-header__inner">
+        <a class="site-logo" href="../index.html">Yasaman Jalalian</a>
+
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          data-nav-toggle
+        >
+          <span class="nav-toggle__bars" aria-hidden="true"></span>
+          <span class="visually-hidden">Menu</span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" data-site-nav>
+          <ul class="site-nav__list">
+            <li><a class="site-nav__link is-active" href="../index.html">Projects</a></li>
+            <li><a class="site-nav__link" href="../about.html">About</a></li>
+          </ul>
+          <div class="site-nav__social">
+            <a class="social-link" href="mailto:hello@example.com" aria-label="Email">Mail</a>
+            <a
+              class="social-link"
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              >LinkedIn</a
+            >
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="project-detail">
+      <a class="project-detail__back" href="../index.html">← Projects</a>
+
+      <figure class="project-detail__hero">
+        <img
+          src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1400&q=80"
+          alt=""
+          width="1400"
+          height="788"
+        />
+      </figure>
+
+      <header class="project-detail__intro">
+        <h1 class="project-detail__title">Library Wing Renovation</h1>
+        <dl class="project-detail__facts">
+          <div>
+            <dt>Year</dt>
+            <dd><time datetime="2024">2024</time></dd>
+          </div>
+          <div>
+            <dt>Type</dt>
+            <dd>Adaptive reuse</dd>
+          </div>
+          <div>
+            <dt>Status</dt>
+            <dd>Built</dd>
+          </div>
+        </dl>
+      </header>
+
+      <div class="project-detail__body prose">
+        <p>
+          The south wing’s former stacks became flexible reading rooms separated by acoustic curtains and
+          low oak shelving. A continuous skylight band redirects daylight toward the interior corridor so
+          the deepest part of the plan stays usable without harsh glare.
+        </p>
+        <p>
+          Radiant floors and discreet displacement ventilation keep mechanical noise away from quiet zones,
+          while historical masonry remains exposed at thresholds between old and new construction.
+        </p>
+      </div>
+
+      <div class="project-detail__gallery">
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=900&q=80"
+            alt=""
+            loading="lazy"
+          />
+        </figure>
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1600585154363-67eb9e2e2099?w=900&q=80"
+            alt=""
+            loading="lazy"
+          />
+        </figure>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <p class="site-footer__copy">© <span data-current-year></span> Yasaman Jalalian</p>
+        <div class="site-footer__social">
+          <a class="social-link" href="mailto:hello@example.com">Mail</a>
+          <a
+            class="social-link"
+            href="https://www.linkedin.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >LinkedIn</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/main.js" defer></script>
+  </body>
+</html>
